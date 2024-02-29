@@ -1,0 +1,96 @@
+﻿/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+section {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: #1f2022;
+}
+.close-btn {
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  background: #1f2022;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.close-btn:hover {
+  background-color: #1f2022;
+}
+
+
+.modal-box {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 380px;
+  width: 100%;
+  padding: 30px 20px;
+  border-radius: 24px;
+  background-color: #141414;
+  opacity: 100;
+  transition: all 0.3s ease;
+  transform: translate(-50%, -50%) scale(1.2);
+}
+
+
+.modal-box i {
+  font-size: 70px;
+  color: white;
+}
+.modal-box h2 {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 500;
+  color: white;
+}
+.modal-box h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+.modal-box .buttons {
+  margin-top: 25px;
+  transition: ease 0.5s;
+}
+
+.modal-box .buttons:hover{
+    color: #1c5b6b;
+    transform: scale(1.1);
+    transition: ease 0.5s;
+    box-shadow: 1px 2px 20px rgb(85 85 85/90%);
+
+}
+.modal-box button {
+  font-size: 14px;
+  padding: 6px 12px;
+  margin: 0 10px;
+}

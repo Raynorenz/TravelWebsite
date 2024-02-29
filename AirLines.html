@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rayno's Airlines</title>
+    <link rel="stylesheet" href="StyleSheet1.css">
+    <link rel="stylesheet"
+          href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Travel</a>
+
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="close-icon"></i>
+        </label>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#destination">Destination</a>
+            <a href="#book">Book</a>
+            <a href="#review">Reviews</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+    <!--home section-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>TRAVEL AROUND THE WORLD</h1>
+            <p>Book your flights with easy steps for your trip with the best experience.</p>
+        </div>
+        <div align="center" id="homebox">
+            <a href="#book" type="submit" class="home-btn">Lets book</a>
+        </div>
+    </section>
+
+    <!--destination section-->
+
+    <section class="destination" id="destination">
+        <div class="title">
+            <h2>Our Most Popular<br> Destination!</h2>
+        </div>
+        <div class="destination-content">
+            <div class="col-content">
+                <a href="puertopage/puertoimg.html"><img src="puerto.jpg" /></a>
+                <h5>Puerto Galera</h5>
+                <p>
+                    Philippines <br />
+                    <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>(88.1k)
+                </p>
+            </div>
+
+            <div class="col-content">
+                <a href="thaipage/thaiimg.html"><img src="phuket.jpg" /></a>
+                <h5>Phuket</h5>
+                <p>
+                    Thailand <br />
+                    <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>(80k)
+                </p>
+            </div>
+
+            <div class="col-content">
+                <a href="thaipage/thaiimg.html"><img src="maldives.jpg" /></a>
+                <h5>Mirihi</h5>
+                <p>
+                    Malfives <br />
+                    <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i>(78.5k)
+                </p>
+            </div>
+
+            <div class="col-content">
+                 <a href="thaipage/thaiimg.html"><img src="venice.jpg" /></a>
+                <h5>Venice</h5>
+                <p>
+                    Italy <br />
+                    <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star-half'></i>(78k)
+                </p>
+            </div>
+
+            <div class="col-content">
+                 <a href="thaipage/thaiimg.html"><img src="santorini.jpg" /></a>
+                <h5>Santoniri</h5>
+                <p>
+                    Greece <br />
+                    <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star-half'></i>(75.6k)
+                </p>
+            </div>
+
+            <div class="col-content">
+                 <a href="thaipage/thaiimg.html"><img src="lakelucerne.jpg" /></a>
+                <h5>Lake Lucerne</h5>
+                <p>
+                    Switzerland <br />
+                    <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star-half'></i>(74.9k)
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!--book saction-->
+
+    <section class="book" id="book">
+        <div class="booktext">
+            <h1>Book your trip!</h1>
+        </div>
+        <div class="book-form">
+            <div class="flex">
+                <div class="inputbox">
+                    <span>Name :</span>
+                    <input type="text" placeholder="Enter your name" name="name" />
+                </div>
+
+                <div class="inputbox">
+                    <span>Email :</span>
+                    <input type="email" placeholder="Enter your email" name="email" />
+                </div>
+
+                <div class="inputbox">
+                    <span>Phone :</span>
+                    <input type="number" placeholder="Enter your number" name="phone" />
+                </div>
+
+                <div class="inputbox">
+                    <span>Address :</span>
+                    <input type="text" placeholder="Enter your address" name="address" />
+                </div>
+
+                <div class="inputbox">
+                    <span>Where to :</span>
+                    <input type="text" placeholder="Place you want to visit" name="location" />
+                </div>
+
+                <div class="inputbox">
+                    <span>How many tickets:</span>
+                    <input type="number" placeholder="number of tickets" name="tickets" />
+                </div>
+
+                <div class="inputbox">
+                    <span>Arrivals :</span>
+                    <input type="date" name="arrivals" />
+                </div>
+
+                <div class="inputbox">
+                    <span>Leaving :</span>
+                    <input type="date" name="leaving" />
+                </div>
+            </div>
+            <div class="button">
+                <a href="completecheck/complete.html">
+                    <input type="submit" class="bookbtn" />
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!----Rating section----->
+    <section id="review">
+        <div class="titlerev">
+            <h2>Top Reviews</h2>
+        </div>
+        <div class="wrapper">
+            <i id="left" class='bx bx-chevron-left'></i>
+            <ul class="carousel">
+                <li class="card">
+                    <div class="img"><img src="pet1.jpg" alt="img" draggable="false" /></div>
+                    <h2>choncky cat</h2>
+                    <span>Reviews</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="pet2.jpeg" alt="img" draggable="false" /></div>
+                    <h2>Princess</h2>
+                    <span>Reviews</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="pet3.jpg" alt="img" draggable="false" /></div>
+                    <h2>Rex</h2>
+                    <span>Reviews</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="pet4.jpg" alt="img" draggable="false" /></div>
+                    <h2>Mayora</h2>
+                    <span>Reviews</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="pet5.jpg" alt="img" draggable="false" /></div>
+                    <h2>Persia</h2>
+                    <span>Reviews</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="pet6.jpg" alt="img" draggable="false" /></div>
+                    <h2>Toothless</h2>
+                    <span>Reviews</span>
+                </li>
+                <li class="card">
+                    <div class="img"><img src="pet7.jpg" alt="img" draggable="false" /></div>
+                    <h2>Harley</h2>
+                    <span>Reviews</span>
+                </li>
+            </ul>
+            <i id="right" class='bx bx-chevron-right'></i>
+        </div>
+    </section>
+
+    <!--contact section-->
+
+    <section id="contact">
+        <div class="footer">
+            <div class="main">
+                <div class="list">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Tour</a></li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><a href="#">Final Project</a></li>
+                        <li><a href="#">Esguerra, Rhinorenz B</a></li>
+                        <li><a href="#">LFTA211M007</a></li>
+                        <li><a href="#">renzesguerra11@gmail.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="list">
+                    <h4>Connect</h4>
+                    <div class="social">
+                        <a href="https://www.facebook.com/Raynorenz.esguerra/"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/rynrnz_/"><i class='bx bxl-instagram'></i></a>
+                        <a href="#"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://www.tiktok.com/@_r_dump_"><i class='bx bxl-tiktok'></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
